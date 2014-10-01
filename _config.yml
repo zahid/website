@@ -1,0 +1,18 @@
+name: zmhr
+markdown: redcarpet
+highlighter: true
+# url: http://zmhr.me
+paginate: 8
+permalink: pretty
+description: zmhr
+intro: "i am, zazu"
+logo: logo.png
+
+owner:
+  name: Zahid Mahir
+  avatar:
+  email: zahid@zmhr.me
+  twitter: "http://www.twitter.com/zahidmahir"
+  github: "http://www.github.com/zahid"
+
+google_analytics: UA-48961696-1
