@@ -1,4 +1,4 @@
-# In creating open source software
+# On creating open source software
 
 ### What:
 
