@@ -24,4 +24,4 @@ These two plugins are used to ease a ton of things, berkshelf manages your cookb
 
 One of my main goals was to make this thing as good as I could to attract users, or at the very least to be helpful to a person or two. One thing I really learned is that while we participate in exhaustive code review at my current job, I need to reflect the same if not more care in the quality of my code that I release to the open public. 
 
-Also, Invent is not a tool an engineer comfortable with Vagrant + Chef would use, it's a starting point for someone who _isn't._
+As a final note, invent is not a tool an engineer comfortable with Vagrant + Chef would use, it's a starting point for someone who _isn't._
