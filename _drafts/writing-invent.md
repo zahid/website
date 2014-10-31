@@ -2,16 +2,21 @@
 
 ### What:
 
-Recently, I've been wanting to get more involved with open source, more accurately, start actually contributing to it. My initial idea was to build a tool that could be quickly cloned via git and used as a base setup for someone who _doesn't_ know how to use Vagrant. This was initially something I called [angry-hobo](http://www.github.com/zahid/angry-hobo), it worked for a little while, but was a great mess. It didn't work quite right in my opinion:
-* cloning a scaffold vs using a program to generate a scaffold
-* it left .git artifacts after cloning which required to be cleaned
-* it included the Chef cookbooks in the repo which I later oped against
+Recently, I've been wanting to get more involved with open source, or more accurately, start actually contributing to it. My initial idea was to build a tool that could be quickly cloned via git and used as a base setup for someone who _doesn't_ know how to use Vagrant. This was initially something I called [angry-hobo](http://www.github.com/zahid/angry-hobo), it worked for a little while, but was a great mess. It didn't work quite right in my opinion. 
 
-I re-_invent_-ed everything by developing [invent](http://www.github.com/zahid/invent), which is now a tool to help build this magical setup that I wanted. There are a million others out there, but this was my stab at my own. I wanted a tool that was simple enough for people to just specify what they needed without really knowing all that much Chef. I built invent as a command line npm tool which could be downloaded and serve its full purpose of being reusable in providing a simple base project setup with Vagrant. We predominantly used Nodejs and MongoDB (hello MEAN stack) so my setup installed those on the virtual machine.
+Here's a list of things that needed improvement:
+* angry-hobo cloned a scaffold vs generated a scaffold
+* angry-hobo left .git artifacts after cloning which required to be cleaned
+* angry-hobo included the Chef cookbooks in the repo, which I later oped against
+
+I later began developing [invent](http://www.github.com/zahid/invent), which is now a tool to help build the simple setup that I wanted. There are a million other tools out there, but this was a stab at building my own. I wanted a tool that was simple enough for people to just specify what they needed without really knowing Chef. I built invent as a command line npm tool. Invent's purpose was to provide a simple base project setup with Vagrant. I predominantly used Nodejs and MongoDB, so my setup installed those on the virtual machine.
 
 ### Why:
 
-While working at a consultancy, we can across an issue: we use Vagrant and Chef to virtualize everyone's development environment, but on each new project, a new developer was given insufficient time to build a new Vagrant setup, and each time it was not the best it could be.
+While working at a consultancy, we came across an issue using Vagrant and Chef to virtualize everyone's development environment. However, on each new project, a new developer was given insufficient time to build the Vagrant setup, and everytime it was done, we had several recurring issues:
+* they were hard to maintain
+* they were written by a differently by a new person each time, causing it to be hard to reuse
+* they were written with
 
 I hit this issue myself- I had no experience with Vagrant and as a novice engineer, I had a box up and running, but it wasn't the best I could do.
 
