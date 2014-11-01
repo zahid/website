@@ -1,3 +1,8 @@
+---
+layout: post
+title: Writing Invent
+---
+
 # Writing invent
 
 ### What:
@@ -5,6 +10,7 @@
 Recently, I've been wanting to get more involved with open source, or more accurately, start actually contributing to it. My initial idea was to build a tool that could be quickly cloned via git and used as a base setup for someone who _doesn't_ know how to use Vagrant. This was initially something I called [angry-hobo](http://www.github.com/zahid/angry-hobo), it worked for a little while, but was a great mess. It didn't work quite right in my opinion. 
 
 Here's a list of things that needed improvement:
+
 * angry-hobo cloned a scaffold vs generated a scaffold
 * angry-hobo left .git artifacts after cloning which required to be cleaned
 * angry-hobo included the Chef cookbooks in the repo, which I later opted against
@@ -14,6 +20,7 @@ I later began developing [invent](http://www.github.com/zahid/invent), which is 
 ### Why:
 
 While working at a consultancy, we came across an issue using Vagrant and Chef to virtualize everyone's development environment. However, on each new project, a new developer was given insufficient time to build the Vagrant setup, and everytime it was done, we had several recurring issues:
+
 * they were written by a differently by a new person each time, causing it to be hard to reuse, hard to maintain
 * they were written with the skill of a novice each time
 
@@ -22,6 +29,7 @@ I hit this issue myself- I had no experience with Vagrant and as a novice engine
 ### How:
 
 For Invent, I simply used a Nodejs script to copy a Vagrantfile and Berksfile into a project directory. I require the user to download two things (on top of Vagrant and VirtualBox, naturally): 
+
 * vagrant-bershelf plugin
 * vagrant-omnibus plugin
 
