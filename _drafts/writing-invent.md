@@ -7,7 +7,7 @@ Recently, I've been wanting to get more involved with open source, or more accur
 Here's a list of things that needed improvement:
 * angry-hobo cloned a scaffold vs generated a scaffold
 * angry-hobo left .git artifacts after cloning which required to be cleaned
-* angry-hobo included the Chef cookbooks in the repo, which I later oped against
+* angry-hobo included the Chef cookbooks in the repo, which I later opted against
 
 I later began developing [invent](http://www.github.com/zahid/invent), which is now a tool to help build the simple setup that I wanted. There are a million other tools out there, but this was a stab at building my own. I wanted a tool that was simple enough for people to just specify what they needed without really knowing Chef. I built invent as a command line npm tool. Invent's purpose was to provide a simple base project setup with Vagrant. I predominantly used Nodejs and MongoDB, so my setup installed those on the virtual machine.
 
