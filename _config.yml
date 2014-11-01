@@ -5,14 +5,14 @@ highlighter: true
 paginate: 8
 permalink: pretty
 description: zmhr
-intro: "i am, zazu"
 logo: logo.png
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 owner:
   name: Zahid Mahir
   avatar:
   email: zahid@zmhr.me
-  twitter: "http://www.twitter.com/zahidmahir"
-  github: "http://www.github.com/zahid"
+  twitter: "zahidmahir"
+  github: "zahid"
 
 google_analytics: UA-48961696-1
