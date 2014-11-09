@@ -2,6 +2,9 @@
 layout: post
 title: Writing Invent
 ---
+
+![invent](/public/images/cardboard-box.png "Invent")
+
 ### What:
 
 Recently, I've been wanting to get more involved with open source, or more accurately, start actually contributing to it. My initial idea was to build a tool that could be quickly cloned via git and used as a base setup for someone who _doesn't_ know how to use Vagrant. This was initially something I called [angry-hobo](http://www.github.com/zahid/angry-hobo), it worked for a little while, but was a great mess. It didn't work quite right in my opinion. 
