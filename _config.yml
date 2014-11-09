@@ -1,18 +1,13 @@
-name: zmhr
 markdown: redcarpet
-highlighter: true
-# url: http://zmhr.me
-paginate: 8
-permalink: pretty
-description: zmhr
-logo: logo.png
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+highlighter: null
+permalink: /:title
 
-owner:
-  name: Zahid Mahir
-  avatar:
-  email: zahid@zmhr.me
-  twitter: "zahidmahir"
-  github: "zahid"
+url:
+baseurl:
 
-google_analytics: UA-48961696-1
+redcarpet:
+  extensions: [strikethrough, tables]
+
+sass:
+  sass_dir: public/css
+  style: :compressed

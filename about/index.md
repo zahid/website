@@ -1,6 +1,6 @@
 ---
-layout: default
-title: About Zahid Mahir
+layout: page
+title: About
 ---
 # I am, zazu
 
