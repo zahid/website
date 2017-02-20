@@ -33,10 +33,10 @@ class Articles extends Component {
       <div className="Articles">
         <ul>
           <li>
-            <time datetime="2017-01-17 12:00">2017-01-17</time> - <a href="https://gist.github.com/zahid/c0287527e3d24df72e71eea86b8aa32f#file-docker-p1-virtual-environment-md">Virtual development environment with Docker</a>
+            <time datetime="2017-01-17 12:00">2017 Jan 1</time> - <a href="https://gist.github.com/zahid/c0287527e3d24df72e71eea86b8aa32f#file-docker-p1-virtual-environment-md">Virtual development environment with Docker</a>
           </li>
           <li>
-            <time datetime="2014-11-01 12:00">2014-11-01</time> - <a href="https://gist.github.com/zahid/e4483045fa563d8de63f45e5f32128dc">Writing invent</a>
+            <time datetime="2014-11-01 12:00">2014 Nov 1</time> - <a href="https://gist.github.com/zahid/e4483045fa563d8de63f45e5f32128dc">Writing invent</a>
           </li>
         </ul>
       </div>
