@@ -20,7 +20,7 @@ class Header extends Component {
           <h1><a href="/">Zahid</a></h1>
           <p>
             {/* Put updated resume link here */}
-            I am a <a href="https://gist.github.com/zahid/c9766ebea4fbd5898a15#file-resume-md">professional software engineer</a> based in New York City.
+            I am a <a href="https://docs.google.com/document/d/1IRkuFI_pCnNyDOVPdJifJvAKrdjCBSnbjrSGjI7PHXY/edit?usp=sharing">professional software engineer</a> based in New York City.
           </p>
       </div>
     );
