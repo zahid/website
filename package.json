@@ -18,5 +18,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://zahid.github.io/website"
+  "homepage": "http://zmhr.me"
 }
